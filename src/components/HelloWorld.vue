@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-    <h1>{{ img }}</h1>
-    <img v-bind:src="img">
-    <img src="../assets/gaga.png">
+    <h1>{{ msg }}</h1>
+    <!-- <img v-bind:src="img"> -->
+    <img :src="img">
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -40,7 +40,7 @@ export default {
   },
   data(){
     return {
-    img: 'require(../../assets/images/team/richard-nash.jpg)' }
+    img: require(`@/assets/exemplo.jpg`) }
   }
 }
 </script>

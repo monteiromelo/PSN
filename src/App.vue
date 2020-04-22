@@ -1,29 +1,29 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/gaga.png"> -->
-    <HelloWorld />
+    <TelaPrincipal />
   </div>
 </template>
 
 <script>
-// import TelaCena from './components/TelaCena.vue'
-import HelloWorld from './components/HelloWorld.vue'
+import TelaPrincipal from './components/TelaPrincipal.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TelaPrincipal
   }
 }
 </script>
 
 <style>
+@import url("/assets/styles/destyle.css");
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

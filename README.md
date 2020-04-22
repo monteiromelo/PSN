@@ -1,4 +1,4 @@
-# psn
+# proj-monteiro
 
 ## Project setup
 ```
